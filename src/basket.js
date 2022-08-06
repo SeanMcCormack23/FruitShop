@@ -3,8 +3,9 @@ let shoppingBasket = document.getElementById("shoppingBasket");
 
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 console.log(basket);
+let cartAmount = document.getElementById("cartContents");
 let sumFruits = () => {
-  let cartAmount = document.getElementById("cartContents");
+  
   cartAmount.innerHTML = basket.map((x) => x.item)
     .reduce((prev, next) => prev + next, 0);
 
@@ -93,6 +94,7 @@ let emptyCart = () => {
   basket = [];
   generateCartItems();
   // localStorage.setItem("data", JSON.stringify(basket));
-  localStorage.clear();
+  // localStorage.removeItem("data");
+  cartAmount.innerHTML = 0;
   
 };
