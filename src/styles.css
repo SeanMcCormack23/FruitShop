@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+h3, .amount{
+  margin: 0.8rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+#delete {
+  color: red;
+}
+.amount {
+  display: flex;
+  gap: 8px;
+  
+}
+button {
+  padding: 0 4px;
+}
+#cart {
+  margin: 0.9rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  background-color: black;
+  color: white;
+  padding: 0.3rem;
+  border-radius: 5%;
+}
+#cartContainer , #emptyBasket{
+  display: flex;
+  align-items: center;
+  
+}
+#emptyBasket {
+  gap: 0.5rem;
+  border: 2px solid;
+  padding: 0.2rem;
+}
+.details {
+  display: flex;
+}

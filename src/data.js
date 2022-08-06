@@ -1,0 +1,13 @@
+let fruitsForSale = [{
+  id: 1,
+  name: "Apple"
+},
+{
+  id: 2,
+  name: "Banana"
+},
+{
+  id: 3,
+  name: "Pear"
+}
+];
