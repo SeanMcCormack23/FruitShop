@@ -1,0 +1,1 @@
+i created this readme file through the git bash terminal
